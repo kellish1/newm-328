@@ -161,7 +161,7 @@ function brush(cell, circle, svg, {padding, size, x, y, columns}) {
 )}
 
 function _data(FileAttachment){return(
-FileAttachment("StudentsPerformance@1.csv").csv({typed: true})
+FileAttachment("StudentsPerformance.csv").csv({typed: true})
 )}
 
 export default function define(runtime, observer) {
